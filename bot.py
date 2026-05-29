@@ -5,7 +5,7 @@ import os
 import random
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from pyrogram.idle import idle
+from pyrogram import idle
 
 # ================= ENV =================
 API_ID = int(os.environ.get("API_ID", 8898405))
